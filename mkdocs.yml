@@ -1,0 +1,4 @@
+site_name: My WM9W repeater
+theme:
+  name: mkdocs
+  custom_dir: iframe_theme/
