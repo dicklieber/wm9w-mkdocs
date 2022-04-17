@@ -1,0 +1,56 @@
+<!--
+  This Basic theme serves as an example for how to create other
+  themes by demonstrating the features with minimal HTML and CSS.
+  Comments like this will be through the code to explain briefly
+  what each feature is and point you to the MkDocs documentation
+  to find out more.
+-->
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+
+    <!--
+      The page_title contains the title for a page as shown in the navigation.
+      Site name contains the name as defined in the mkdocs.yml
+    -->
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
+
+    <!--
+      You can include external assets of course, but be aware that it means the
+      documentation may not work well offline.
+    -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+
+    {% for path in config.extra_css %}
+    <link href="{{ path|url }}" rel="stylesheet">
+    {% endfor %}
+
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+            crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <p class="navbar-brand">{{page.title}}</p>
+     </div>
+</div>
+
+{% block content %}
+{{ page.content }}
+{% endblock %}
+
+</body>
+</html>

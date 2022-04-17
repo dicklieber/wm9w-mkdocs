@@ -1,0 +1,1 @@
+<p>Click on a block in the diagram to see details.</p>

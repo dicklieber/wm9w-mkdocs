@@ -29,3 +29,5 @@ to the \<area\> tags.
 
 The image map feature is a standard HTML, see [map]{https://www.w3schools.com/tags/tag_map.asp}
 OmniGraffle is one of the best editor and has imagemap support. Other graphic tools and image map generators can be used.
+
+source for this lives on [GitHub]{https://github.com/dicklieber/wm9w-mkdocs}
