@@ -1,4 +1,7 @@
-# Radio Shelf
+---
+title: Radio Shelf
+template: iframe.html
+---
 Holds the transmitter, receiver and a 12Volt Anderson PowerPole outlet strip.
 
 The transmitter and receiver are Bridgecom BCM-220 mobile radios. 

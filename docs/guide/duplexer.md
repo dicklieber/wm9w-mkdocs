@@ -1,4 +1,7 @@
-# Duplexer
+---
+title: Duplexer
+template: iframe.html
+---
 The duplexer allows both the transmitter and receiver to use the same antenna si]multanously,
 
 The WM9W duplexer consists of four turned circuits, called cavaities, or just "cans".

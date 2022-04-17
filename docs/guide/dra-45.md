@@ -1,4 +1,7 @@
-# USB/Radio Interface
+---
+title: USB/Radio Interface
+template: iframe.html
+---
 Provides a USB interface to the radios.
 
 It is a [DRA-45](https://www.masterscommunications.com/products/radio-adapter/dra/dra45_docs.html)

@@ -1,4 +1,7 @@
-# NetBooter 
+---
+title: NetBooter
+template: iframe.html
+---
 An IP-base AC Outlet, allows:
 
 * Cycling the 12V power Supply

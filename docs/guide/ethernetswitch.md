@@ -1,4 +1,7 @@
-#Ethernet POE Switch
+---
+title: Ethernet POE Switch
+template: iframe.html
+---
 Connects all the ethernet devices on a private/local network.
 A Netgear [GS108PEv3](https://www.amazon.com/gp/product/B00M1C03U2)
 
